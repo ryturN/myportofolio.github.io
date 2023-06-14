@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title> My Website
+    </title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./animation.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" /> 
+    <!-- Pusing kalo JS nanti saja <#><script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const sections = document.querySelectorAll('section[data-section]');
+        const navLinks = document.querySelectorAll('nav a');
+
+        function setActiveSection(sectionId) {
+          sections.forEach(function(section) {
+            if (section.getAttribute('data-section') === sectionId) {
+              section.classList.add('active-section');
+            } else {
+              section.classList.remove('active-section');
+            }
+          });
+        }
+
+        function handleNavLinkClick(event) {
+          event.preventDefault();
+          const targetSection = this.getAttribute('href').substring(1);
+          setActiveSection(targetSection);
+        }
+
+        navLinks.forEach(function(navLink) {
+          navLink.addEventListener('click', handleNavLinkClick);
+        });
+      });
+    </script>
+  -->
+  </head>
+  <body>
+    <header>
+    <h1 class="heading"> My Portofolio</h1>
+    <nav id="navbar" class="nav">
+        <ul class="nav-list">
+          <li><a href="#about-me">Tentang Saya</a></li>
+          <li><a href="#projects">My Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#cv-section">Experience</a></li>
+        </ul>
+      </nav>
+      </header>
+      <!-- Gak Jadi , Pusing !
+      <div id="welcome-message"></div>
+      <header>
+        <h2>Welcome to My Portfolio Page</h2>
+        <p>Hi, I'm Ryan, a graphic designer and aspiring web developer. This is where I showcase my projects and skills. Feel free to explore and get in touch!</p>
+      </header>
+    -->
+    <section
+    id="about-me" 
+    class="about-me"
+    data-section="about-me"
+    >
+      <h2 class="typing">Hey I am Ryan...</h2>
+      <p>Im a design graphic and want to be Web developer</p>
+    </section>
+    <section 
+    id="projects" 
+    class="projects-section"
+    >
+    <h2 class="projects-section-header">Hasil project yang saat ini saya buat</h2>
+    <div class="projects-grid">
+    <a href="./project/300(1).png"
+    target="_blank"
+    class="project project-tile">
+    <img src="./project/300(1).png" 
+    alt="Foto project"
+    loading="lazy"
+    class="project-image"
+    />
+    <p class="project-title">
+        <span class="code">&lt;</span>
+        My project
+        <span class="code">&#47;&gt;</span>
+    </p>
+</a>
+<a href="./project/300.png"
+target="_blank"
+class="project project-tile">
+<img src="./project/300.png"
+alt="My Project Residence"
+class="project-image"
+loading="lazy">
+<p class="project-title">
+  <span class="code">&lt;</span>
+  My Project About Residence
+  <span class="code">&#47;&gt;</span>
+</p>  
+</a>
+<a 
+  href="./project/pia Zhang.png"
+  target="_blank"
+  class="project project-tile">
+  <img src="./project/pia Zhang.png"
+  alt="My Project With Pia Zhang"
+  class="project-image"
+  loading="lazy" />
+  <p class="project-title">
+  <span class="code">&lt;</span>
+  My Project With Pia Zhang
+  <span class="code">&#47;&gt;</span>
+    </p>
+  </a>
+    <a href="./project/NEW P(10).jpg"
+    target="_blank"
+    class="project project-tile">
+    <img src="./project/NEW P(10).jpg" 
+    alt="F&B Product"
+    loading="lazy"
+    class="project-image">
+    <p class="project-title">
+        <span class="code">&lt;</span>
+        F & B Product
+        <span class="code">&#47;&gt;</span>
+    </p>
+    </a>
+    <a href="./project/NEW P(22).jpg"
+    target="_blank"
+    class="project project-tile">
+    <img src="./project/NEW P(22).jpg"
+    alt="Product From Zhang Sangjit"
+    class="project-image"
+    loading="lazy" />
+    <p class="project-title">
+        <span class="code">&lt;</span>
+        Product From Zhag Sangjit
+        <span class="code">&#47;&gt;</span>
+
+    </p>
+    </a>
+    <a href="./project/Untitled-2(new).png"
+    target="_blank"
+    class="project project-tile">
+    <img src="./project/Untitled-2(new).png"
+    alt="MY Project from Pia Zhang"
+    class="project-image"
+    loading="lazy" />
+    <p class="project-title">
+        <span class="code">&lt;</span>
+        My Project From Pia Zhang
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+</section>
+</div>
+<section 
+id="cv-section"
+class="cv-section"
+>
+  <h2>Ryan</h2>
+  <h3></h3>
+  <p>
+    I am a professional with a broad range of skills in working both in
+    teams and independently. My main expertise lies in management, HR
+    management, HR auditing, attention to detail, and data archiving. I
+    also have strong skills in computer operation, both in terms of
+    software such as MS Office, Adobe Family, and hardware.
+  </p>
+  <p>
+    Palembang, Palembang City, South Sumatra, Indonesia
+  </p>
+  <h4>Work Experience</h4>
+  <ul>
+    <li>
+      Admin Social Media at Roemah Zhang (November 2022 - Present,
+      Palembang)
+      <ul>
+        <li>
+          My responsibilities include creating and editing photos for
+          posting, writing engaging copy for posts, and managing and
+          responding to direct messages from users.
+        </li>
+        <li>
+          During these tasks, I constantly monitor the performance of
+          posts and analyze user data. I look at engagement rates, views,
+          and user interactions to measure promotional effectiveness.
+        </li>
+      </ul>
+    </li>
+    <li>
+      Digital Marketing at CV Mata Media (January 2022 - October 2022,
+      Palembang)
+      <ul>
+        <li>
+          As a digital marketer responsible for marketing the annual book
+          for high school students, my role includes conducting market
+          research to understand the preferences of high school students
+          and their parents. Additionally, I also develop effective
+          marketing strategies.
+        </li>
+        <li>
+          I establish partnerships with schools, teachers, and high
+          school parents to expand the reach of promotions. Providing
+          special offers and relevant content to potential customers
+          based on brand preferences.
+        </li>
+      </ul>
+    </li>
+  </ul>
+</section>
+  <h4>Education</h4>
+  <ul>
+    <li>
+      Universitas Terbuka (2020 - Present) - Management
+    </li>
+    <li>
+      SMA Negeri 08 Palembang (2017 - 2020) - Social Sciences
+    </li>
+  </ul>
+  <h4>Skills</h4>
+  <ul>
+    <li>HR Management</li>
+    <li>HR Audit</li>
+    <li>MS Word</li>
+    <li>MS Excel</li>
+  </ul>
+  <h4>Languages</h4>
+  <ul>
+    <li>English - Intermediate</li>
+    <li>Indonesian - Fluent</li>
+  </ul>
+</div>
+    </section>
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+      <h2>Lets work together...</h2>
+      <p>Feel free to reach out to me through any of the following channels:</p>
+      </div>
+      <div class="çontact-links">
+        <a 
+        href="https://www.facebook.com"
+        target="_blank"
+        class="btn contact-details"
+        ><i class="fab fa-facebook">
+          Facebook
+        </i>
+        </a>
+        <a
+        href="https://github.com/watashiox14"
+        target="_blank"
+        class="btn contact-details"
+        ><i class="fab fa-github">
+          Github
+        </i>
+      </a>
+      <a href="https://www.linkedin.com/in/m-adryan-74084924b/"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-linkedin">
+        Linkedin
+      </i>
+    </a>
+    <a 
+    href="mailto:m.adryan54@gmail.com"
+    target="_blank"
+    class="btn contact-details"
+    ><i class="far fa-envelope">
+      Send a Mail
+    </i>
+    </a>
+    <a 
+    href="wa.me/081272741983"
+    target="_blank"
+    class="btn contact-details"
+    ><i class="fas fa-phone">Call me
+    </i>
+   </a>
+      </div>
+    </div>
+    </section>
+  </body>
+</html>
