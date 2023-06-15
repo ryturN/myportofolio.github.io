@@ -256,13 +256,14 @@ section.active-section{
  .projects-section {
     text-align: center;
     padding: 10rem 2rem;
-    background: var(--main-blue);
+    background: rgb(221, 207, 207);
   }
   
   .projects-section-header {
     max-width: 640px;
     margin: 0 auto 6rem auto;
-    border-bottom: 0.2rem solid var(--main-white);
+    border-bottom: 0.2rem solid var(--main-gray);
+    color:black
   }
   
   @media (max-width: 28.75em) {
