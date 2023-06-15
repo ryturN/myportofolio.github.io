@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title> My Website
+    </title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./animation.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" /> 
+    <link rel="stylesheet" href="https://fontawesome.com/v4/icons/" />
+    <!-- Pusing kalo JS nanti saja <#><script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const sections = document.querySelectorAll('section[data-section]');
+        const navLinks = document.querySelectorAll('nav a');
+
+        function setActiveSection(sectionId) {
+          sections.forEach(function(section) {
+            if (section.getAttribute('data-section') === sectionId) {
+              section.classList.add('active-section');
+            } else {
+              section.classList.remove('active-section');
+            }
+          });
+        }
+
+        function handleNavLinkClick(event) {
+          event.preventDefault();
+          const targetSection = this.getAttribute('href').substring(1);
+          setActiveSection(targetSection);
+        }
+
+        navLinks.forEach(function(navLink) {
+          navLink.addEventListener('click', handleNavLinkClick);
+        });
+      });
+    </script>
+  -->
+
+  <!-- Project Start -->
+  </head>
+  <body>
+    <header>
+    <span class="aries">♈︎</span>
+    <h1 class="heading"> My Portofolio</h1>
+    <nav id="navbar" class="nav">
+        <ul class="nav-list">
+          <li><a href="#">Tentang Saya</a></li>
+          <li><a href="./project.html">My Project</a></li>
+          <li><a href="./CV.html">Experience</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      </header>
+      <!-- Gak Jadi , Pusing !
+      <div id="welcome-message"></div>
+      <header>
+        <h2>Welcome to My Portfolio Page</h2>
+        <p>Hi, I'm Ryan, a graphic designer and aspiring web developer. This is where I showcase my projects and skills. Feel free to explore and get in touch!</p>
+      </header>
+    -->
+    <section
+    id="about-me" 
+    class="about-me"
+    data-section="about-me"
+    >
+      <h2 class="hey typing">Hey I am Ryan...</h2>
+      <p class="design-text">Im a design graphic and want to be Web developer</p>
+      <!-- nanti saja
+      <div class="penguin">
+        <div class="penguin-head">
+          <div class="face left"></div>
+          <div class="face right"></div>
+          <div class="chin"></div>
+          <div class="eye left">
+            <div class="eye-lid"></div>
+          </div>
+          <div class="eye right">
+            <div class="eye-lid"></div>
+          </div>
+          <div class="blush left"></div>
+          <div class="blush right"></div>
+          <div class="beak top"></div>
+          <div class="beak bottom"></div>
+        </div>
+        <div class="shirt">
+          <div>💜</div>
+          <p>I CSS</p>
+        </div> 
+        <div class="penguin-body">
+          <div class="arm left"></div>
+          <div class="arm right"></div>
+          <div class="foot left"></div>
+          <div class="foot right"></div>
+        </div> -->  
+      </div>
+    </section>
+    <script src="https://kit.fontawesome.com/f96cd546ea.js" crossorigin="anonymous">
+    </script>
+
+
+  </body>
+</html>
