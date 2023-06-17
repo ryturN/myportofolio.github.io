@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="UTF-8" />
-    <title> My Website
-    </title>
-    <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="./animation.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" /> 
-    <link rel="stylesheet" href="https://fontawesome.com/v4/icons/" />
-    <!-- Pusing kalo JS nanti saja <#><script>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> My Website
+  </title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./animation.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+  <link rel="stylesheet" href="https://fontawesome.com/v4/icons/" />
+  <!-- Pusing kalo JS nanti saja <#><script>
       document.addEventListener('DOMContentLoaded', function() {
         const sections = document.querySelectorAll('section[data-section]');
         const navLinks = document.querySelectorAll('nav a');
@@ -38,35 +39,32 @@
   -->
 
   <!-- Project Start -->
-  </head>
-  <body>
-    <header>
+</head>
+
+<body>
+  <header>
     <span class="aries">♈︎</span>
     <h1 class="heading"> My Portofolio</h1>
     <nav id="navbar" class="nav">
-        <ul class="nav-list">
-          <li><a href="#">Tentang Saya</a></li>
-          <li><a href="./project.html">My Project</a></li>
-          <li><a href="./CV.html">Experience</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-        </ul>
-      </nav>
-      </header>
-      <!-- Gak Jadi , Pusing !
+      <ul class="nav-list">
+        <li><a href="#">Tentang Saya</a></li>
+        <li><a href="./project.html">My Project</a></li>
+        <li><a href="./CV.html">Experience</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Gak Jadi , Pusing !
       <div id="welcome-message"></div>
       <header>
         <h2>Welcome to My Portfolio Page</h2>
         <p>Hi, I'm Ryan, a graphic designer and aspiring web developer. This is where I showcase my projects and skills. Feel free to explore and get in touch!</p>
       </header>
     -->
-    <section
-    id="about-me" 
-    class="about-me"
-    data-section="about-me"
-    >
-      <h2 class="hey typing">Hey I am Ryan...</h2>
-      <p class="design-text">Im a design graphic and want to be Web developer</p>
-      <!-- nanti saja
+  <section id="about-me" class="about-me text-white" data-section="about-me">
+    <h2 class="hey typing">Hey I am Ryan...</h2>
+    <p class="design-text">Im a design graphic and want to be Web developer</p>
+    <!-- nanti saja
       <div class="penguin">
         <div class="penguin-head">
           <div class="face left"></div>
@@ -92,12 +90,53 @@
           <div class="arm right"></div>
           <div class="foot left"></div>
           <div class="foot right"></div>
-        </div> -->  
+        </div> -->
+    </div>
+  </section>
+  <div class="card">
+    <div class="card-row">
+      <div class="card-image">
+        <img src="./project/WhatsApp Image 2023-06-05 at 18.06.03.jpg" alt="Card Image">
       </div>
-    </section>
-    <script src="https://kit.fontawesome.com/f96cd546ea.js" crossorigin="anonymous">
-    </script>
+      <div class="card-content">
+        <div class="card-box">
+          <p class="card-text">My passion for building digital products is shaped by having the mindset of putting
+            humans
+            in the center of attention; to ensure the product team is solving the right problem for the people.</p>
+
+          <p class="card-text2">My design process is backed-up with the iterative approach of user research, problem
+            definition, hypotheses
+            creations, prototyping, and testing.</p>
+
+          <p class="card-text3"> My strong focus is on discovery research and building design concepts that will enable
+            organizations in defining a new strategy or product opportunities to help the business gain its competitive
+            advantage.</p>
+          <button>Check out My CV</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="container"> 
+  <img src="./project/hanni-newjeans-omg-4k-wallpaper-uhdpaper.com-246@0@i.jpg" alt="Gambar" class="image">
+  <div class="blue-box">
+    <div class="white-box">
+      <p>
+        My passion for building digital products is shaped by having the mindset of putting humans in the center of attention; to ensure the product team is solving the right problem for the people.
+      </p>
+      <p>
+        My design process is backed-up with the iterative approach of user research, problem definition, hypotheses creations, prototyping, and testing.
+      </p>
+      <p>
+        My strong focus is on discovery research and building design concepts that will enable organizations in defining a new strategy or product opportunities to help the business gain its competitive advantage.
+      </p>
+       <a href="#" class="button">Click Me</a> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/f96cd546ea.js" crossorigin="anonymous">
+  </script>
 
 
-  </body>
+</body>
+
 </html>
