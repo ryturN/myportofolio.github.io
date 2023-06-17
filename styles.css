@@ -49,7 +49,7 @@
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 1.4;
-    color: var(--main-white)
+    color: var(--main-white);
   }
 
   /*Nav Bar */
@@ -357,6 +357,14 @@ section.active-section{
     margin-bottom: 40px;
     font-size: 11px;
     flex-wrap: wrap;
+    transform: translateX(0);
+  }
+  .card-box button:hover {
+    background-color: #303841;
+    transition-delay: 5s;
+    transform: translateY(8px);
+    transition: 0.3s ease-out;
+    
   }
 
   .card-row {
@@ -371,6 +379,9 @@ section.active-section{
     background-color: #fff;
     height: 10%;
     flex-wrap: wrap;
+    background-size: cover;
+    background-attachment: fixed;
+    
     
   }
 
@@ -381,6 +392,7 @@ section.active-section{
     margin: -3.2% 0 0 50%;
     height: auto;
     border-radius: 8px 0 0 8px;
+
   }
   @media (max-width: 768px) {
     .card-row {
