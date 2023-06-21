@@ -115,7 +115,7 @@ section h1 {
   font-size: 6.5rem;
 }
 
-.project-section-header {
+.projects-section-header {
   border-bottom: 4px solid var(--main-gray);
   margin-bottom: 30px;
   padding-bottom: 0;
@@ -312,22 +312,24 @@ section.active-section{
 }
 
 .card-text {
-  margin: 40px 70px 0 70px ;
+  margin: 40px 70px 0 70px;
   font-size: 10px;
   color: #000;
 }
 
 .card-text2 {
 
-  margin: 20px 70px 0 70px ;
+  margin: 20px 70px 0 70px;
   font-size: 10px;
   color: #000;
 }
+
 .card-text3 {
-  margin: 20px 70px 50px 70px ;
+  margin: 20px 70px 50px 70px;
   font-size: 10px;
   color: #000;
 }
+
 .card-meta {
   font-size: 12px;
   color: #6c757d;
@@ -342,9 +344,9 @@ section.active-section{
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  margin: 70px auto ;
+  margin: 70px auto;
   justify-content: center;
-  box-shadow: 3px 3px 3px 3px rgb(14, 65, 141),9px 9px 9px 9px rgb(65, 80, 212);
+  box-shadow: 3px 3px 3px 3px rgb(14, 65, 141), 9px 9px 9px 9px rgb(65, 80, 212);
 }
 
 .card-box button {
@@ -359,18 +361,19 @@ section.active-section{
   flex-wrap: wrap;
   transform: translateX(0);
 }
+
 .card-box button:hover {
   background-color: #303841;
   transition-delay: 5s;
   transform: translateY(8px);
   transition: 0.3s ease-out;
-  
+
 }
 
 .card-row {
   display: flex;
   flex-wrap: wrap;
-  
+
 
 }
 
@@ -381,8 +384,8 @@ section.active-section{
   flex-wrap: wrap;
   background-size: cover;
   background-attachment: fixed;
-  
-  
+
+
 }
 
 .card-image img {
@@ -394,6 +397,7 @@ section.active-section{
   border-radius: 8px 0 0 8px;
 
 }
+
 @media (max-width: 768px) {
   .card-row {
     flex-direction: column;
@@ -414,73 +418,82 @@ section.active-section{
     max-width: 100%;
     margin: 0 auto;
   }
-}
+    .typing{
+      width: 15ch
+    }
+  }
+
+
 /* Card END */
 
 /* hobbies START */
-.hobbies{
+.hobbies {
   max-width: 1200px;
   margin: 0 auto;
 
 }
 
-.hobbies-card{
+.hobbies-card {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 15px;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 
 }
 
-.hobbies-card-items{
+.hobbies-card-items {
   text-align: center;
   width: 25%;
   background-color: whitesmoke;
-  color:#000;
+  color: #000;
   padding: 24px;
   margin-bottom: 25px;
   box-shadow: 2px 5px 5px 1px rgb(75, 73, 73);
 }
 
-.wrapper{
+.wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.hobbies-title{
+
+.hobbies-title {
   font-size: 18px;
   font-weight: bolder;
 }
 
-.hobbies-desc{  
+.hobbies-desc {
   margin-top: 4px;
   font-size: 14px;
-  font-weight:lighter;
+  font-weight: lighter;
 }
 
-.icon{
+.icon {
   width: 20%;
   height: 20%;
   padding: 4px;
   margin: 10px auto;
 
 }
-@media screen and (max-width: 500px){
-  .hobbies-card{
+
+@media screen and (max-width: 500px) {
+  .hobbies-card {
     flex-direction: column;
     gap: 0;
   }
-  .hobbies-card-items{
+
+  .hobbies-card-items {
     width: 100%;
   }
-  .hobbies{
+
+  .hobbies {
     width: 100%;
     padding: 0;
   }
 }
-  
+
 
 /* Hobbies END */
 /*Project Section*/
@@ -500,6 +513,7 @@ section.active-section{
 @media (max-width: 28.75em) {
   .projects-section-header {
     font-size: 4rem;
+    margin-top: 15%
   }
 }
 
@@ -720,64 +734,67 @@ span {
 /* CV END */
 /* CV Responsif */
 @media (max-width: 768px) {
-.cv-body {
-  padding-top: 5%;
+  .cv-body {
+    padding-top: 5%;
+  }
+
+  .cv-bio {
+    margin-left: 3%;
+  }
+
+  .cv-experience,
+  .cv-skills,
+  .cv-languages {
+    margin-left: 3%;
+  }
+
+  .cv-education {
+    margin-left: 9%;
+  }
+
+  .cv-education {
+    margin-right: 9%;
+  }
+
+  .cv-experience,
+  .cv-skills {
+    max-width: 100%;
+    margin-right: 3%;
+  }
+
+  .cv-languages {
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+
+  .cv-list,
+  .skills-list,
+  .languages-list {
+    margin-left: 0;
+  }
+
+  .sup-education {
+    margin-left: 50%;
+    margin-top: -15.9%;
+  }
+
+  .list-subtitle,
+  .sup-sub,
+  .list2-subtitle,
+  .sup2-sub,
+  .list2-subtitle2 {
+    margin-left: 0;
+  }
+
+  .second-paragraph,
+  .second-sub,
+  .second2-paragraph,
+  .second2-sub {
+    margin-left: 0;
+    margin-top: 0;
+  }
 }
 
-.cv-bio {
-  margin-left: 3%;
-}
-
-.cv-experience,
-.cv-skills,
-.cv-languages {
-  margin-left: 3%;
-}
-.cv-education{
-  margin-left: 9%;
-}
-
-.cv-education{
-  margin-right: 9%;
-}
-.cv-experience,
-.cv-skills {
-  max-width: 100%;
-  margin-right: 3%;
-}
-
-.cv-languages {
-  margin-top: 30px;
-  margin-bottom: 0;
-}
-
-.cv-list,
-.skills-list,
-.languages-list {
-  margin-left: 0;
-}
-
-.sup-education {
-  margin-left: 50%;
-  margin-top: -15.9%;
-}
-
-.list-subtitle,
-.sup-sub,
-.list2-subtitle,
-.sup2-sub,
-.list2-subtitle2 {
-  margin-left: 0;
-}
-
-.second-paragraph,
-.second-sub,
-.second2-paragraph,
-.second2-sub {
-  margin-left: 0;
-  margin-top: 0;
-}
-}
 /* CV Responsif END */
 .cv-section .button:hover {
   background-color: var(--main-blue);
